@@ -1,0 +1,41 @@
+nav {
+    display: flex;
+    position: fixed;
+    background-color: black;
+    justify-content: space-around;
+    color: white;
+    font-weight: bold;
+    align-items: center;
+    top: 0;
+    left: 0;
+    height: 20vh;
+    width: 100%;
+    z-index: 10;
+}
+#logo {
+    width: 100%;
+    padding: 20px;
+    height: 300px;
+}
+
+.logo {
+    display: flex;
+}
+
+li {
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    justify-content: flex-end;
+    cursor: pointer;
+}
+
+li:hover{
+    background-color: #a8815b;
+    border-radius: 32px;
+}
+
+#nav-list {
+    margin: 0 1rem;
+    display: flex;
+}
