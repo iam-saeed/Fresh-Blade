@@ -1,3 +1,9 @@
+* {
+  font-family: 'MuseoModerno', cursive;
+  /* font-family: 'Roboto', sans-serif; */
+}
 body {
   background-color: #EEEEEE;
+  margin: 0;
+  padding: 0;
 }
