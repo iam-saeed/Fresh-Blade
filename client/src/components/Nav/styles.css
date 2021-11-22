@@ -24,6 +24,7 @@ nav {
 
 li {
     display: flex;
+    text-decoration: none;
     align-items: center;
     padding: 20px;
     justify-content: flex-end;
