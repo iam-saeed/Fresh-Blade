@@ -1,0 +1,51 @@
+#client-dash {
+    display: flex;
+    margin-top: 10vh;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    background-color: #a8815b;
+    height: 100vh;  
+    width: 100%;
+}
+
+.dash {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+
+.barbers {
+    display: flex;
+    border-radius: 50%;
+    /* justify-content: space-around; */
+    flex-wrap: wrap;
+    flex-direction: row;
+    max-height: 150px;
+    min-width: 150px;
+    border: 5px solid black;
+}
+
+.barber-images {
+    display: flex;
+    padding: 20px;
+    /* border: 1px solid black; */
+    flex-direction: column;
+}
+
+.individual-barber {
+    display: flex;
+    flex-direction: column;
+    /* justify-content: space-around; */
+    justify-content: center;
+    align-items: center;
+}
+.form-group-booking {
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+}
+.current-appointments {
+    display: flex;
+    width: 80%;
+}

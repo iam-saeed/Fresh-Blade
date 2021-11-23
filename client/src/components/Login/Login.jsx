@@ -1,11 +1,16 @@
 import React from 'react'
+import Navbar from '../Nav/Navbar'
 import './styles.css'
 
 const Login = () => {
     return (
+        <>
+        <header>
+            <Navbar />
+        </header>
         <section className="signup">
             <form action="">
-                <h2>Login</h2> 
+                <h1  style={{ fontWeight: 'bold' }}>Login</h1> 
                 <br />
             <div className="form-group">
                 <label htmlFor="name">Email</label>
@@ -18,10 +23,11 @@ const Login = () => {
             <br />
                 <p>Forgot Password</p>
             <div className="form-group">
-                <input type="submit" name="name" className="form-control" />
+                <input type="submit" name="name" className="form-control" style={{ backgroundColor: '#a8815b', color: '#fff' }} />
             </div>
             </form>
         </section>
+        </>
     )
 }
 
