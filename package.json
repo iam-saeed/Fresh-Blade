@@ -1,0 +1,24 @@
+{
+  "name": "fresh-blade",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "server": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/iam-saeed/Fresh-Blade.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/iam-saeed/Fresh-Blade/issues"
+  },
+  "homepage": "https://github.com/iam-saeed/Fresh-Blade#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "nodemon": "^2.0.15"
+  }
+}

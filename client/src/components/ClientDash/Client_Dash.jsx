@@ -1,7 +1,7 @@
 import React from 'react'
 import './client_dash.css'
-import Dash_Nav from '../Nav/Dash_Nav.jsx'
-
+import Sidebar from '../Nav/Sidebar.jsx'
+import * as AiIcons from 'react-icons/ai'
 import Calender from 'react-calendar'
 
 import barber from '../../assets/barber.jpg'
@@ -32,8 +32,8 @@ const Client_Dash = () => {
 
     return (
         <>
-              <header>
-        <Dash_Nav />
+      <header>
+        <Sidebar />
       </header>
         <section id="client-dash" className="client_dash">
             <h2><strong>explore our barbers</strong></h2>
@@ -78,7 +78,8 @@ const Client_Dash = () => {
             </div>
         </section>
         <section id="appointments">
-        <h2>upcoming appointments</h2>
+        <h2><AiIcons.AiFillCalendar style={{ marginRight: '16px' }} />
+            upcoming appointments</h2>
             <div className="current-appointments">
                 <Calender style={{ width: '50%' }} />
             </div>

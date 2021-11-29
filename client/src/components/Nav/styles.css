@@ -1,6 +1,6 @@
 nav {
     display: flex;
-    position: fixed;
+    position: absolute;
     background-color: black;
     justify-content: space-around;
     color: white;
@@ -21,10 +21,20 @@ nav {
 .logo {
     display: flex;
 }
+a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 20px;
+    color: #818181;
+    display: block;
+    transition: 0.3s;
+}
 
 li {
     display: flex;
     text-decoration: none;
+    color: #818181;
+    transition: 0.3s;
     align-items: center;
     padding: 20px;
     justify-content: flex-end;
@@ -32,8 +42,11 @@ li {
 }
 
 li:hover{
-    background-color: #a8815b;
+    color: #f1f1f1;
     border-radius: 32px;
+}
+a:hover {
+    color: #fff;
 }
 
 #nav-list {
